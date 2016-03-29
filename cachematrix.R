@@ -1,3 +1,7 @@
+## The first function caches the data and the result of the function that is calculated in the second function.
+## The second function calculates the function solve and uses the first one to cache the result of the solve function in case it is not yet cached.
+
+
 ## This function receives a matrix object and caches it in a variable of the environment. It caches the solve (inverse) of the matrix as well as long as the
 ## setsolve function is invoked.
 
